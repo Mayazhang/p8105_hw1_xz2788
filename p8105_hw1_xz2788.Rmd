@@ -9,3 +9,20 @@ output: github_document
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
+# Section 1
+
+This section displays the answer to problem 1
+
+Here is a **code chunk** that samples from
+a_uniform_distribution_:
+
+```{r}
+samp = runif(10, 0, 5)
+```
+
+Logical vector to show whether each element in the sample is greater than 2
+
+```{r}
+logic_vec = samp > 2
+```
+
