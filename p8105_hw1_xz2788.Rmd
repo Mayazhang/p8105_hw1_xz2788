@@ -63,7 +63,7 @@ as.numeric(hw1_df_1$char_vec)
 as.numeric(hw1_df_1$factor_vec)
 ```
 
-### What happens?
+### What happens when applying as.numeric function?
 
 The character vector was presented with NAs. The logical vector displays "1" for TRUE and "0" for FALSE. The factor vector was presented with corresponding value of levels.
 
