@@ -57,8 +57,7 @@ Factors in R are stored as a vector of integer values with a corresponding set o
 
 Here is a **code chunk** that applies the as.numeric function:
 
-```{r apply_as.numeric, eval=FALSE}
-## why can't use results = hide, the message said that hide not found
+```{r apply_as.numeric, results= 'hide'}
 as.numeric(hw1_df_1$logic_vec)
 as.numeric(hw1_df_1$char_vec)
 as.numeric(hw1_df_1$factor_vec)
